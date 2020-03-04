@@ -10,11 +10,17 @@ Python RSA Algorithm
 STEPS:
 
 a. Select two prime numbers - p and q
+
 b. Compute their product => ( n * q ) -------------------> Becomes the Public Key
+
 c. Totient => phi( n ) = ( p - 1 ) * ( q - 1 )
+
 d. Choose an e > 1  and co-prime to phi( n )
+
 e. Find d such that: [ (d * e) % totient ] = 1
+
 f. Encrypted Msg => c = (m ^ e) % n   [where m is the message entered by user for encryption]
+
 g. Decrypted Msg => m = (c ^ d) % n
 
 Note that the message input from the user should be same to the decrypted message.
