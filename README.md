@@ -8,6 +8,7 @@ Python RSA Algorithm
 3. Public is accessible by all, but the private key is only known by the two communicating parties.
 
 STEPS:
+
 a. Select two prime numbers - p and q
 b. Compute their product => ( n * q ) -------------------> Becomes the Public Key
 c. Totient => phi( n ) = ( p - 1 ) * ( q - 1 )
